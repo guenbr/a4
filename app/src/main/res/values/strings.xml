@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Amazing Products</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="product_image">Product Image</string>
+    <string name="expiry_date">Expiry Date:</string>
+    <string name="warranty">Warranty:</string>
+    <string name="product_header">My Food and Equipments</string>
+    <string name="sort_by">Sort by: </string>
+    <string name="no_products">No products available</string>
+    <string name="years">year(s)</string>
+    <string name="invalid_credentials">Invalid username or password</string>
+</resources>

@@ -1,0 +1,48 @@
+Amazing Products App
+App that displays a list of products fetched from an API.
+
+Features
+
+Login screen with authentication.
+Username: admin
+Password: admin
+Product list with filter options
+Error handling with fallback data sources
+Sorting functionality
+API integration with offline support
+
+Setup Instructions
+
+Unzip the file
+Open the project in Android Studio
+Build with gradle then run the application
+
+Architecture
+
+Repository Pattern: For data handling and API communication
+Flow: For reactive data streams
+Room Database: For local data persistence
+ViewModel: For UI state management
+Navigation Component: For fragment navigation
+
+Retrofit: For API communication
+Room: For database storage
+Navigation Component: For navigation between fragments
+Coroutines: For asynchronous operations
+Flow: For reactive programming
+
+
+API Handling
+
+The application handles three API scenarios:
+Successful API call with data
+Successful API call with no data
+API call failure
+
+In case of API failure, the app attempts to:
+Fetch data from local database
+Use fallback JSON file from assets
+Show appropriate error message
+
+Fully implemented assignment 4 features, got rid of the sort method since piazza
+said it was optional.
